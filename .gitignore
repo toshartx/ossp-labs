@@ -1,0 +1,40 @@
+# Visual Studio / MSVC build artifacts
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.idb
+*.exp
+*.lib
+*.tlog
+*.lastbuildstate
+
+# Visual Studio user settings
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Logs and experimental data (генерируются при запуске)
+*.log
+log.txt
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Python (для скриптов построения графиков)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Исключения: если нужно сохранить какие-то конкретные exe или dll
+!scripts/*.py
