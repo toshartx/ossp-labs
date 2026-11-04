@@ -1,0 +1,5 @@
+Config,Mode,Workers,Run1,Run2,Run3
+A,Mutex,2,709,735,728
+B,Mutex,3,1196,1206,1180
+C,Interlocked,2,22,22,21
+D,Interlocked,3,28,27,26
